@@ -1,5 +1,8 @@
-# api documentation for  [jsgraph (v0.7.0)](https://github.com/Encapsule/jsgraph)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsgraph.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsgraph) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsgraph.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsgraph)
-#### Generic directed graph container, and visitor algorithms based on a port of the Boost C++ Graph Library API.
+# npmdoc-jsgraph
+
+#### basic api documentation for  [jsgraph (v0.7.1)](https://github.com/Encapsule/jsgraph)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsgraph.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsgraph) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsgraph.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsgraph)
+
+#### DirectedGraph container class + BFT/DFT/transpose algorithms inspired by Boost C++ Graph Library API.
 
 [![NPM](https://nodei.co/npm/jsgraph.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/jsgraph)
 
@@ -25,7 +28,7 @@
         "url": "https://github.com/Encapsule/jsgraph/issues"
     },
     "dependencies": {},
-    "description": "Generic directed graph container, and visitor algorithms based on a port of the Boost C++ Graph Library API.",
+    "description": "DirectedGraph container class + BFT/DFT/transpose algorithms inspired by Boost C++ Graph Library API.",
     "devDependencies": {
         "chai": "^1.10.0",
         "grunt": "^0.4.5",
@@ -37,10 +40,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "0b405e7f4c36d171255a626bb61733c676e83816",
-        "tarball": "https://registry.npmjs.org/jsgraph/-/jsgraph-0.7.0.tgz"
+        "shasum": "74c01a659d806b9bbb03b5a1639250f9aedcfba5",
+        "tarball": "https://registry.npmjs.org/jsgraph/-/jsgraph-0.7.1.tgz"
     },
-    "gitHead": "e11c07f06bd31855ad0783af36d46a3abb5824ef",
+    "gitHead": "d9d0fc7e75552ca40fb9866097211d8dd305db34",
     "homepage": "https://github.com/Encapsule/jsgraph",
     "keywords": [
         "graph",
@@ -97,7 +100,8 @@
     "scripts": {
         "test": "mocha -R spec ./test/test-jsgraph.js"
     },
-    "version": "0.7.0"
+    "version": "0.7.1",
+    "bin": {}
 }
 ```
 
